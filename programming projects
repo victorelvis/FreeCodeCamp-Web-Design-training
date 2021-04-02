@@ -1,0 +1,251 @@
+<html>
+<stile>
+html {
+  /* Setting a base font size of 10px give us easier rem calculations
+     Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px and so forth
+   */
+  font-size: 10px;
+}
+
+body {
+  /* Native font stack https://getbootstrap.com/docs/4.2/content/reboot/#native-font-stack */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    'Helvetica Neue', Arial, sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-align: center;
+  color: #333;
+  margin: 0;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 0;
+}
+
+@media (max-width: 460px) {
+  h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+  }
+}
+
+h2 {
+  font-size: 3.25rem;
+}
+
+a {
+  color: #477ca7;
+}
+
+a:visited {
+  color: #74638f;
+}
+
+#main {
+  margin: 30px 8px;
+  padding: 15px;
+  border-radius: 5px;
+  background: #eee;
+}
+
+@media (max-width: 460px) {
+  #main {
+    margin: 0;
+  }
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-div {
+  background: white;
+  padding: 10px;
+  margin: 0;
+}
+
+#img-caption {
+  margin: 15px 0 5px 0;
+}
+
+@media (max-width: 460px) {
+  #img-caption {
+    font-size: 1.4rem;
+  }
+}
+
+#headline {
+  margin: 50px 0;
+  text-align: center;
+}
+
+ul {
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+}
+
+li {
+  margin: 16px 0;
+}
+
+blockquote {
+  font-style: italic;
+  max-width: 545px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+}
+
+</stile>
+
+<head>
+
+</head>
+<boby>
+ <div id="main">
+   <h1 id="title">Martin Luther King, Jr.</h1>
+   
+   <div id="img-div">
+     <img src="https://dpic.imgix.net/legacy/MartinLutherKingJr.jpg?" alt="Martin Luther King Jr Portrait." id="image">
+     <p id="img-caption"><em>One of Greatest Black Rights Advocates of all time.</em></p>
+   </div>
+   
+   <div id="tribute-info">
+     <h4>1st President of the Southern Christian Leadership </h4>
+     <ul>
+      <li><strong>In office-</strong>
+       January 10, 1957 – April 4, 1968</li>
+      <li><strong>Preceded by-</strong>	Position established</li>
+      <li><strong>Succeeded by-</strong>	Ralph Abernathy</li>
+      <h3>Personal details</h3>
+      <li><strong>Born-</strong>	Michael King Jr.
+       January 15, 1929
+       Atlanta, Georgia, U.S.</li>
+      <li><strong>Died-</strong>	April 4, 1968 (aged 39)
+      <li><strong>Cause of death-</strong>	Assassination by              gunshot</li>
+      <li><strong>Resting place-</strong>	Martin Luther King Jr.          National Historical Park</li>
+      <li><strong>Spouse(s)-</strong>	Coretta Scott ​(m.                  1953)​</li>
+      <li><strong>Children-</strong>
+       YolandaMartinDexterBernice</li>
+      <li><strong>Parents-</strong>	
+       Martin Luther King Sr.
+       Alberta Williams King</li>
+      <li><strong>Relatives-</strong>	
+       Christine King Farris (sister)
+       Alfred Daniel Williams King (brother)
+      Alveda King (niece)</li>
+      <li><strong>Education-</strong>	
+      Morehouse College (BA)
+      Crozer Theological Seminary (BDiv)
+      Boston University (PhD)</li>
+     <li><strong>Occupation-</strong>	
+      Baptist ministeractivist</li>
+     <li><strong>Known for-</strong>	Civil rights movement, Peace       movement</li>
+     <li><strong>Awards-</strong>	
+      Nobel Peace Prize (1964)
+      Presidential Medal of Freedom (posthumously, 1977)
+      Congressional Gold Medal (posthumously, 2004)</li>
+     <li><strong>Memorials-</strong>	Martin Luther King Jr.             Memorial</li>
+    </ul>
+     <blockquote
+      cite="https://kr.usembassy.gov/education-culture/"
+    >
+<p>I am happy to join with you today in what will go down in history as the greatest demonstration for freedom in the history of our nation.</p>
+
+<p>Five score years ago, a great American, in whose symbolic shadow we stand today, signed the Emancipation Proclamation. This momentous decree came as a great beacon of hope to millions of slaves, who had been seared in the flames of whithering injustice. It came as a joyous daybreak to end the long night of their captivity. But one hundred years later, the colored America is still not free. One hundred years later, the life of the colored American is still sadly crippled by the manacle of segregation and the chains of discrimination.</p>
+
+<p>One hundred years later, the colored American lives on a lonely island of poverty in the midst of a vast ocean of material prosperity. One hundred years later, the colored American is still languishing in the corners of American society and finds himself an exile in his own land So we have come here today to dramatize a shameful condition.</p>
+
+<p>In a sense we have come to our Nation’s Capital to cash a check. When the architects of our great republic wrote the magnificent words of the Constitution and the Declaration of Independence, they were signing a promissory note to which every American was to fall heir.</p>
+<p>This note was a promise that all men, yes, black men as well as white men, would be guaranteed the inalienable rights of life liberty and the pursuit of happiness.</p>
+
+<p>It is obvious today that America has defaulted on this promissory note insofar as her citizens of color are concerned. Instead of honoring this sacred obligation, America has given its colored people a bad check, a check that has come back marked “insufficient funds.”</p>
+
+<p>But we refuse to believe that the bank of justice is bankrupt. We refuse to believe that there are insufficient funds in the great vaults of opportunity of this nation. So we have come to cash this check, a check that will give us upon demand the riches of freedom and security of justice.</p>
+
+<p>We have also come to his hallowed spot to remind America of the fierce urgency of Now. This is not time to engage in the luxury of cooling off or to take the tranquilizing drug of gradualism.
+
+<p>Now is the time to make real the promise of democracy.</p>
+
+<p>Now it the time to rise from the dark and desolate valley of segregation to the sunlit path of racial justice.</p>
+
+<p>Now it the time to lift our nation from the quicksand of racial injustice to the solid rock of brotherhood.</p>
+
+<p>Now is the time to make justice a reality to all of God’s children.</p>
+
+<p>I would be fatal for the nation to overlook the urgency of the moment and to underestimate the determination of it’s colored citizens. This sweltering summer of the colored people’s legitimate discontent will not pass until there is an invigorating autumn of freedom and equality. Nineteen sixty-three is not an end but a beginning. Those who hope that the colored Americans needed to blow off steam and will now be content will have a rude awakening if the nation returns to business as usual.</p>
+
+<p>There will be neither rest nor tranquility in America until the colored citizen is granted his citizenship rights. The whirlwinds of revolt will continue to shake the foundations of our nation until the bright day of justice emerges.</p>
+
+<p>We can never be satisfied as long as our bodies, heavy with the fatigue of travel, cannot gain lodging in the motels of the highways and the hotels of the cities.</p>
+
+<p>We cannot be satisfied as long as the colored person’s basic mobility is from a smaller ghetto to a larger one.</p>
+
+<p>We can never be satisfied as long as our children are stripped of their selfhood and robbed of their dignity by signs stating “for white only.”</p>
+
+<p>We cannot be satisfied as long as a colored person in Mississippi cannot vote and a colored person in New York believes he has nothing for which to vote.
+</p>
+<p>No, no we are not satisfied and we will not be satisfied until justice rolls down like waters and righteousness like a mighty stream.</p>
+
+<p>I am not unmindful that some of you have come here out of your trials and tribulations. Some of you have come from areas where your quest for freedom left you battered by storms of persecutions and staggered by the winds of police brutality.</p>
+
+<p>You have been the veterans of creative suffering. Continue to work with the faith that unearned suffering is redemptive.</p>
+
+<p>Go back to Mississippi, go back to Alabama, go back to South Carolina go back to Georgia, go back to Louisiana, go back to the slums and ghettos of our modern cities, knowing that somehow this situation can and will be changed.</p>
+
+<p> us not wallow in the valley of despair. I say to you, my friends, we have the difficulties of today and tomorrow.</p>
+
+<p>I still have a dream. It is a dream deeply rooted in the American dream.</p>
+
+<p>I have a dream that one day this nation will rise up and live out the true meaning of its creed. We hold these truths to be self-evident that all men are created equal.</p>
+
+<p>I have a dream that one day out in the red hills of Georgia the sons of former slaves and the sons of former slaveowners will be able to sit down together at the table of brotherhood.</p>
+
+<p>I have a dream that one day even the state of Mississippi, a state sweltering with the heat of oppression, will be transformed into an oasis of freedom and justice.</p>
+
+<p>I have a dream that my four little children will one day live in a nation where they will not be judged by the color of their skin but by their character.</p>
+
+<p>I have a dream today.</p>
+
+<p>I have a dream that one day down in Alabama, with its vicious racists, with its governor having his lips dripping with the words of interposition and nullification; that one day right down in Alabama little black boys and black girls will be able to join hands with little white boys and white girls as sisters and brothers.</p>
+
+<p>I have a dream today.</p>
+
+<p>I have a dream that one day every valley shall be engulfed, every hill shall be exalted and every mountain shall be made low, the rough places will be made plains and the crooked places will be made straight and the glory of the Lord shall be revealed and all flesh shall see it together.</p>
+
+<p>This is our hope. This is the faith that I will go back to the South with. With this faith we will be able to hew out of the mountain of despair a stone of hope.</p>
+
+<p>With this faith we will be able to transform the jangling discords of our nation into a beautiful symphony of brotherhood.</p>
+
+<p>With this faith we will be able to work together, to pray together, to struggle together, to go to jail together, to climb up for freedom together, knowing that we will be free one day.</p>
+
+<p>This will be the day when all of God’s children will be able to sing with new meaning “My country ’tis of thee, sweet land of liberty, of thee I sing. Land where my father’s died, land of the Pilgrim’s pride, from every mountainside, let freedom ring!”</p>
+
+<p>And if America is to be a great nation, this must become true. So let freedom ring from the hilltops of New Hampshire. Let freedom ring from the mighty mountains of New York.</p>
+
+<p>Let freedom ring from the heightening Alleghenies of Pennsylvania.</p>
+
+<p>Let freedom ring from the snow-capped Rockies of Colorado.</p>
+
+<p>Let freedom ring from the curvaceous slopes of California.</p>
+
+<p>But not only that, let freedom, ring from Stone Mountain of Georgia.</p>
+
+<p>Let freedom ring from every hill and molehill of Mississippi and every mountainside.</p>
+
+<p>When we let freedom ring, when we let it ring from every tenement and every hamlet, from every state and every city, we will be able to speed up that day when all of God’s children, black men and white men, Jews and Gentiles, Protestants and Catholics, will be able to join hands and sing in the words of the old spiritual, “Free at last, free at last. Thank God Almighty, we are free at last.”</p>
+      <cite>-- Martin Luthers Most Memorable Speech</cite>
+    </blockquote>
+   </div>
+   <a href="https://en.wikipedia.org/wiki/Martin_Luther_King_Jr." target="blank" id="tribute-link">
+     Learn more about Martin Luther King, Jr.
+     <a>
+ </div>
+  
+</body>
+</html>
